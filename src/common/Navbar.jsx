@@ -7,7 +7,7 @@ import { Link} from "react-router-dom";
 
 
 // // === To Applied Photos should import this from your folder === //
-import logo from "../assets/navbar/marketing-association.png";
+import logo from "../assets/navbar/TurNers-Car.png";
 
 // === To access this you have to install the 'npm install react-icons' for font awesome === //
 import React, { useState } from "react";
@@ -21,7 +21,7 @@ const [nav, setNav] = useState(false)
   return (
     <header className={styles.HeaderNavbar}>
       {/* === Left Part of the NavBar === */}
-      <img  src={logo} alt="mcgilogo" style={{height:250, width:350}}></img>
+      <img  src={logo} alt="cars" style={{height:120, width:200}}></img>
   
     {/* === RightSide Part of NavBar === */}
     <nav>
@@ -29,11 +29,11 @@ const [nav, setNav] = useState(false)
     <ul className={nav ? [styles.headerUlRight, styles.active].join(' ') : [styles.headerUlRight]}>
       <br />
       <Link className={styles.linkstyle} to="/">HOME</Link>
-      <Link className={styles.linkstyle} to="/">TRAINING</Link>
-      <Link className={styles.linkstyle} to="/">EVENTS</Link>
-      <Link className={styles.linkstyle} to="/">SERVICES</Link>
-      <Link className={styles.linkstyle}  to="/">BECOME A MEMBER</Link>
-      <Link className={styles.linkstyle} to="/">SEE DASHBOARD</Link>
+      <Link className={styles.linkstyle} to="/">FIND A CAR</Link>
+      <Link className={styles.linkstyle} to="/">SELL YOUR CAR</Link>
+      <Link className={styles.linkstyle} to="/">HOW TO BUY</Link>
+      <Link className={styles.linkstyle}  to="/">FINANCE AND INSURANCE</Link>
+      <Link className={styles.linkstyle} to="/">TURNERS SUBSCRIPTION</Link>
     </ul>
     </nav>
 {/* === Button Show When meet the maximum screen of 1024=== */}
