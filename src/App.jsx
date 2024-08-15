@@ -1,6 +1,7 @@
 
 import {Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx'
+import React from 'react';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
 </Routes>
 
     </>
+
+    
   )
 }
 

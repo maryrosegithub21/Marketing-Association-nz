@@ -1,0 +1,9 @@
+.containerChat{
+    display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   position: fixed;
+   right: 0.1rem;
+   z-index: 2000;
+   margin-top: 2rem;
+}

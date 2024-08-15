@@ -12,7 +12,7 @@ export default function HeroBanner() {
   return (
   < div className={styles.parentContainerHero}> 
 <div className={styles.detailsContainer}>
-<h1 className={styles.textHero}>50 YEARS OF HELPING MARKETERS</h1>
+<h1 className={styles.textHero}>Helping Kiwis Buy and Sell Cars for Over 50 Years</h1>
 
 </div>
 
