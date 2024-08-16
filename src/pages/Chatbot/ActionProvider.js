@@ -13,6 +13,13 @@ class ActionProvider {
         messages: [...prev.messages, message],
       }));
     }
+    howToBuy() {
+      const message = this.createChatBotMessage("How to Buy a Car FAQs");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+      }));
+    }
   }
   
   export default ActionProvider;

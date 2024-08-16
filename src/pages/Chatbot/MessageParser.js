@@ -9,6 +9,10 @@ class MessageParser {
       if (lowercase.includes("hello")) {
         this.actionProvider.greet();
       }
+      if (lowercase.includes("hello")) {
+        this.actionProvider.greet();
+      }
+      
     }
   }
   
