@@ -5,7 +5,7 @@ import Hero from '../pages/HomePage/components/HeroBanner.jsx';
 import Help from '../pages/HomePage/components/Help.jsx';
 import Slide from '../pages/HomePage/components/SlideShowMain.jsx';
 import Partners from '../pages/HomePage/components/Partners.jsx';
-import WebChat from './ChatAzure/WebChat.jsx';
+// import WebChat from './ChatAzure/WebChat.jsx';
 // import ChatBot from './Chatbot/ChatBot.jsx';
 
 
@@ -15,7 +15,7 @@ export default function Home() {
 <NavBar />
 <Hero />
 {/* <ChatBot /> */}
-<WebChat/>
+{/* <WebChat/> */}
 <Help />
 <Slide />
 <Partners />

@@ -9,7 +9,7 @@ const WebChat = () => {
 
   useEffect(() => {
     const directLine = new DirectLine({
-      secret: 'Hc7yJWwyODI.RmyNzIYaJbY_d9LMnCfaD6lvRwtNInx4DUSTFaE4hm8'
+      secret: '6635b271cf3c466bb87957cb1726d71c'
     });
     setDirectLine(directLine);
   }, []);
